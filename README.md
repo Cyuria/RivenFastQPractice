@@ -8,3 +8,5 @@ To exit press escape or do a windows quit thing, or click on the red button in t
 The settings.json file contains all the important details, which you can modify to your hearts content.
 The timings will almost definitely be slightly off, so feel free to fix it.
 If you came here from my reddit post, comment the fix there and I might upload a fix
+
+I now suddenly realise that I can use the release, but I'm on my phone and can't be bothered to fix it right now.
