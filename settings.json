@@ -1,0 +1,49 @@
+{
+	"__Comment": [
+			"Basically, the json format doesn't let me say",
+			"arbitrary stuff without putting it as data,",
+			"So anything I want to tell you will be in square brackets [ ]",
+			"Some data will also be in square brackets, but the data is all numbers, so...",
+			"Also I indented the comments with three tabs, so there you go"
+	],
+	"__Comment": [
+			"The boxPosition lets you set the positions for the various buttons",
+			"Except for the quit button",
+			"It is formatted as [x, y, width, height]",
+			"Where x is the horizontal distance from the left in pixels (the window is 1400 pixels wide)",
+			"The Y is the vertical distance from the top in pixels (the window is 800 pixels high)",
+			"And the width and height are the width and the height of the box"
+	],
+	"boxPosition": {
+		"AutoBox": [800, 350, 100, 100],
+		"QBox": [800, 350, 100, 100],
+		"MoveBox": [400, 200, 400, 400]
+	},
+	"__Comment": [
+			"The boxCols is pretty simple, its the colours of the boxes as R, G, B",
+			"Basically the amount of red, green and blue.",
+			"If you're still confused, look up 'RGB'"
+	],
+	"boxCols": {
+		"AutoBox": [200, 100, 0],
+		"QBox": [0, 200, 0],
+		"MoveBox": [0, 100, 200]
+	},
+	"__Comment": [
+			"Ok, here is the cool bit. You can also change the timings",
+			"The default timings are almost definitely wrong, so feel free",
+			"To modify them. Pretty similar to the other two in format,",
+			"But I changed the names and its just one number in seconds.",
+			"P.S. Attack speed is just the attacks per second, so the",
+			"0.66 AS benchmark for riven is 0.66 attacks per second,",
+			"Or one attack every 1 / 0.66 seconds (which is about 1.5 BTW)",
+		
+			"Also, the move time is the maximum time you have to enter a move input",
+			"So it tells you when you messed up."
+	],
+	"Timings": {
+		"AutoTime": 0.6,
+		"QTime": 0,
+		"MoveTime": 0.2
+	}
+}
