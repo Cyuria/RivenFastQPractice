@@ -42,8 +42,8 @@
 			"So it tells you when you messed up."
 	],
 	"Timings": {
-		"AutoTime": 0.6,
+		"AutoTime": 0.3,
 		"QTime": 0,
-		"MoveTime": 0.2
+		"MoveTime": 0.6
 	}
 }
